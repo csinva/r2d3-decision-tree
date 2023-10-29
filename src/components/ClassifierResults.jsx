@@ -2,7 +2,7 @@ import React from 'react';
 
 const ClassifierAccuracy = ({ width, accuracy }) =>
 	  <g className="classifer-accuracy">
-	  <text x={width * 0.5} y="-28" className="accuracy-label">Training Accuracy</text>
+	  <text x={width * 0.5} y="-28" className="accuracy-label">Accuracy</text>
 	  <text x={width * 0.5} y="-8"  className="accuracy-value">{accuracy}%</text>
 	  </g>;
 
